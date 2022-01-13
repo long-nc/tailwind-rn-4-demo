@@ -4,7 +4,7 @@ import { StyleSheet, View } from 'react-native';
 
 const Box = () => {
   const tw = useTailwind();
-  return <View style={[styles.box, tw('bg-black h-[100px] w-[100-px]')]} />;
+  return <View style={[styles.box, tw('bg-black h-[100px] w-[100px]')]} />;
 }
 
 const styles = StyleSheet.create({
